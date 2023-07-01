@@ -15,14 +15,14 @@ let randomvideo_ = [];
 /**
  * 初始化工具设置文件
  */
-let toolsSetFile = "./plugins/xianxin-plugin/config/tools.set.yaml";
-let mysterySetFile = "./plugins/xianxin-plugin/config/mystery.set.yaml";
+let toolsSetFile = "./plugins/TRSS-Xianxin-Plugin/config/tools.set.yaml";
+let mysterySetFile = "./plugins/TRSS-Xianxin-Plugin/config/mystery.set.yaml";
 if (!fs.existsSync(mysterySetFile)) {
   if (fs.existsSync(toolsSetFile)) {
     fs.copyFileSync(toolsSetFile, mysterySetFile);
   } else {
     fs.copyFileSync(
-      "./plugins/xianxin-plugin/defSet/mystery/set.yaml",
+      "./plugins/TRSS-Xianxin-Plugin/defSet/mystery/set.yaml",
       mysterySetFile
     );
   }

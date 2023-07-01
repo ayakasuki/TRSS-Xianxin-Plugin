@@ -7,11 +7,11 @@ import lodash from "lodash";
 class XsCfg {
   constructor() {
     /** 默认设置 */
-    this.defSetPath = "./plugins/xianxin-plugin/defSet/"
+    this.defSetPath = "./plugins/TRSS-Xianxin-Plugin/defSet/"
     this.defSet = {};
 
     /** 用户设置 */
-    this.configPath = "./plugins/xianxin-plugin/config/";
+    this.configPath = "./plugins/TRSS-Xianxin-Plugin/config/";
     this.config = {};
 
     /** 监听文件 */

@@ -10,7 +10,7 @@
 
 是 <a href="https://gitee.com/TimeRainStarSky/Yunzai" target="_blank">TRSS-Yunzai</a> 闲心修复版 -（未完全）
 
-[![访问量](https://profile-counter.glitch.me/xianxin-plugin/count.svg)](https://gitee.com/xianxincoder/xianxin-plugin)
+[![访问量](https://profile-counter.glitch.me/TRSS-Xianxin-plugin/count.svg)](https://github.com/ayakasuki/TRSS-Xianxin-Plugin)
 
 
 <img src="https://cdn.jsdelivr.net/gh/ayakasuki/Cocowwy/assets/github-contribution-grid-snake.svg">

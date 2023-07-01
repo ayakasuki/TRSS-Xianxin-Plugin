@@ -2,12 +2,12 @@ export default class base {
   constructor(e = {}) {
     this.e = e;
     this.userId = e?.user_id;
-    this.model = "xianxin-plugin";
+    this.model = "TRSS-Xianxin-Plugin";
     this._path = process.cwd().replace(/\\/g, "/");
   }
 
   get prefix() {
-    return `Yz:xianxin-plugin:${this.model}:`;
+    return `Yz:TRSS-Xianxin-Plugin:${this.model}:`;
   }
 
   /**
@@ -19,9 +19,9 @@ export default class base {
   get screenData() {
     return {
       saveId: this.userId,
-      tplFile: `./plugins/xianxin-plugin/resources/html/${this.model}/${this.model}.html`,
+      tplFile: `./plugins/TRSS-Xianxin-Plugin/resources/html/${this.model}/${this.model}.html`,
       /** 绝对路径 */
-      pluResPath: `${this._path}/plugins/xianxin-plugin/resources/`,
+      pluResPath: `${this._path}/plugins/TRSS-Xianxin-Plugin/resources/`,
     };
   }
 }

@@ -4,18 +4,18 @@ import fs from "node:fs";
 import fetch from "node-fetch";
 import Bilibili from "../model/bilibili.js";
 
-let bilibiliSetFile = "./plugins/xianxin-plugin/config/bilibili.set.yaml";
+let bilibiliSetFile = "./plugins/TRSS-Xianxin-Plugin/config/bilibili.set.yaml";
 if (!fs.existsSync(bilibiliSetFile)) {
   fs.copyFileSync(
-    "./plugins/xianxin-plugin/defSet/bilibili/set.yaml",
+    "./plugins/TRSS-Xianxin-Plugin/defSet/bilibili/set.yaml",
     bilibiliSetFile
   );
 }
 
-let bilibiliPushFile = "./plugins/xianxin-plugin/config/bilibili.push.yaml";
+let bilibiliPushFile = "./plugins/TRSS-Xianxin-Plugin/config/bilibili.push.yaml";
 if (!fs.existsSync(bilibiliPushFile)) {
   fs.copyFileSync(
-    "./plugins/xianxin-plugin/defSet/bilibili/push.yaml",
+    "./plugins/TRSS-Xianxin-Plugin/defSet/bilibili/push.yaml",
     bilibiliPushFile
   );
 }

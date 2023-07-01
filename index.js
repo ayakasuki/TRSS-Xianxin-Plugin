@@ -8,7 +8,7 @@ logger.info(`闲心插件${versionData[0].version}初始化~`);
 logger.info(`--------------------------`);
 
 const files = fs
-  .readdirSync("./plugins/xianxin-plugin/apps")
+  .readdirSync("./plugins/TRSS-Xianxin-Plugin/apps")
   .filter((file) => file.endsWith(".js"));
 
 let ret = [];

@@ -1,5 +1,5 @@
 import path from "path";
-const _path = process.cwd() + "/plugins/xianxin-plugin";
+const _path = process.cwd() + "/plugins/TRSS-Xianxin-Plugin";
 import xxCfg from "./model/xxCfg.js";
 
 /**
@@ -8,11 +8,11 @@ import xxCfg from "./model/xxCfg.js";
 export function supportGuoba() {
   return {
     pluginInfo: {
-      name: "xianxin-plugin",
-      title: "xianxin-plugin",
-      author: "@闲心",
-      authorLink: "https://gitee.com/xianxincoder",
-      link: "https://gitee.com/xianxincoder/xianxin-plugin",
+      name: "TRSS-Xianxin-Plugin",
+      title: "TRSS-Xianxin-Plugin",
+      author: "原版@闲心,新版@卖桃子的女孩",
+      authorLink: "https://gitee.com/ayakasuki",
+      link: "https://gitee.com/ayakasuki/xianxin-plugin",
       isV3: true,
       isV2: false,
       description: "提供B站推送、群战小游戏、米游社cos、米游社wiki攻略等功能",
