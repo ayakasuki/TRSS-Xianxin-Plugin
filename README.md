@@ -58,7 +58,7 @@
 Gitee
 
 ```base
-git clone https://gitee.com/ayakasuki/TRSS-Xianxin-Plugin.git ./plugins/TRSS-Xianxin-Plugin/
+git clone https://gitee.com/ayakasuki/xianxin-plugin.git ./plugins/TRSS-Xianxin-Plugin/
 ```
 
 Github
