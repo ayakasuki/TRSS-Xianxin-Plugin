@@ -141,7 +141,7 @@ export class bilibili extends plugin {
       name = dynamic?.modules?.module_author?.name || uid;
     }
 
-    data[this.e.group_id].push({
+      data[this.e.group_id].push({
       uid,
       name: name,
       type: this.typeHandle(

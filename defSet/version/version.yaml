@@ -2,8 +2,8 @@
     version: 1.1.6.fix,
     data:
       [
-        初步更新TRSS专版，解决适配器分离segment导入出错，
-        修改B站推送群号类型，适配<span class="strong">QQ频道\KOOK</sp等(理论Discord也好了)，
+        初步更新TRSS专版，解决适配器分离segment导入出错,
+        修改B站推送群号类型，适配<span class="strong">QQ频道\KOOK</sp等(理论Discord也好了),
         修复转发同群号类型导致无法转发，但<span class="strong">e.getGroupMap</span>依然出错,
       ],
   }
